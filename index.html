@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- The view‑transition meta enables native cross‑page transitions in
+       browsers that support the View Transition API. Even without support,
+       our custom JavaScript falls back to a fade animation. -->
+  <meta name="view-transition" content="same-origin">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ghumoowithus | Home</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Preconnects improve loading of external fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo"><a href="index.html">Ghumoowithus</a></div>
+    <ul class="nav-menu">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="destinations.html">Destinations</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <!-- hamburger for mobile -->
+    <div class="nav-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" style="background-image: url('images/destination.jpg');">
+    <div class="overlay"></div>
+    <div class="content">
+      <h1>Embark on Unforgettable Journeys</h1>
+      <p>Discover breathtaking destinations and unique experiences with Ghumoowithus</p>
+      <a href="destinations.html" class="btn">Explore Now</a>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="section">
+    <div class="section-heading">
+      <h2>Why Travel With Us?</h2>
+      <p>We curate one‑of‑a‑kind adventures tailored to your dreams.</p>
+    </div>
+    <div class="destinations">
+      <!-- We reuse the destinations grid styling here for a three‑column layout of features -->
+      <div class="card" style="background-image: url('images/beach.jpg');">
+        <div class="overlay-card">
+          <h2>Personalised Itineraries</h2>
+          <p>Our travel experts design trips that reflect your passions and pace.</p>
+        </div>
+      </div>
+      <div class="card" style="background-image: url('images/city.jpg');">
+        <div class="overlay-card">
+          <h2>24/7 Support</h2>
+          <p>We’re by your side from the moment you book until you return home.</p>
+        </div>
+      </div>
+      <div class="card" style="background-image: url('images/nature.jpg');">
+        <div class="overlay-card">
+          <h2>Best Price Guarantee</h2>
+          <p>We negotiate competitive rates so you can travel smarter.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action Section -->
+  <section class="section" style="text-align:center;">
+    <h2>Ready for your next adventure?</h2>
+    <p>Contact our team today to start planning a journey you’ll never forget.</p>
+    <a href="contact.html" class="btn">Get in Touch</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Ghumoowithus. All rights reserved.</p>
+    <p>Designed with passion for travelers. Follow us on 
+      <a href="https://twitter.com" target="_blank" rel="noopener">Twitter</a>,
+      <a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a>
+      and <a href="https://facebook.com" target="_blank" rel="noopener">Facebook</a>.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
